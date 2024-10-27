@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:aqua;
+    color: white;
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input {
+    background-color: #fff;
+    color: #333;
+}
+button {
+    background-color: violet;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color:violet;
+}
+.note-item {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.note-tag {
+    font-style: italic;
+    color: #888;
+}
+.note-actions {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.note-actions button {
+    background-color: #dc3545;
+    margin: 2px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 3px 5px;  
+    font-size: 12px;    
+}
+.note-actions button:hover {
+    background-color: #c82333;
+}
+.note-actions .edit {
+    background-color: #28a745;
+}
+.note-actions .edit:hover {
+    background-color: #218838;
+}
